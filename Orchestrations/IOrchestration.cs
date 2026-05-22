@@ -4,5 +4,5 @@ namespace Arabidopsis.LiteRAG.Orchestrations;
 
 public interface IOrchestration
 {
-    public Task<IVectorStore?> BuildAsync(string text, CancellationToken cts);
+    public Task<IVectorStore?> BuildAsync(CancellationToken cts);
 }
