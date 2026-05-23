@@ -17,11 +17,13 @@ A concise, orchestratable Retrieval-Augmented Generation (RAG) framework built w
 
 ## Project Structure
 
+```
 LiteRAG/ 
 ├── Models/ # Data models and entities 
 ├── Orchestrations/ # Orchestration logic and workflows 
 ├── Processes/ # Core processing components 
 └── README.md # This file
+```
 
 
 ## Prerequisites
